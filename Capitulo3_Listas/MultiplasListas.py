@@ -36,7 +36,9 @@ for indice in range (0, len(equipamentos)):
 
 serial = int(input('\nDigite o serial do equipamento que será excluído: '))
 for indice in range (0, len(departamentos)):
-    if seriais[indice] == serial:
+    if seriais[indice] != serial:
+        print(input('Digite um serial válido: '))
+    elif seriais[indice] == serial:
         del departamentos[indice]
         del equipamentos[indice]
         del seriais[indice]

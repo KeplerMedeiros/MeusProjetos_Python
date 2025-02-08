@@ -1,19 +1,19 @@
-from Capitulo3_Funcoes.IdentificacaoDeFuncoes import *
+from IdentificacaoDeFuncoes import *
 
 minhaLista = []
-print('Preenchendo')
+print('\nPreenchendo')
 preencherInventario(minhaLista)
-print('Exibindo')
+print('\nExibindo')
 exibirInventario(minhaLista)
 
-print('Pesquisando')
+print('\nPesquisando')
 localizarPorNome(minhaLista)
-print('Alterando')
+print('\nAlterando')
 depreciarPorNome(minhaLista, 20)
 
-print('Excluindo')
+print('\nExcluindo')
 print(excluirPorSerial(minhaLista))
 exibirInventario(minhaLista)
 
-print('Resumindo')
+print('\nResumindo')
 resumirValores(minhaLista)

@@ -31,7 +31,7 @@ def depreciarPorNome(lista, porc):
             print('Novo valor: ', elemento[1])
 
 def excluirPorSerial (lista):
-    serial = int(input('\nDigite o serial do equipamento qiue será excluído: '))
+    serial = int(input('\nDigite o serial do equipamento que será excluído: '))
     for elemento in lista:
         if serial == elemento[2]:
             lista.remove(elemento)
